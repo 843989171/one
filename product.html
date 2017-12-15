@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/product.css"/>
+    <script type="text/javascript" src="./js/plugin/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="./js/plugin/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="js/public.js"></script>
+    <title>产品大全</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-main clearfix">
+            <h1 id="logo">
+                <a href="index.html"></a>
+            </h1>
+            <div class="nav-box">
+                <ul class="nav" id="nav">
+                    <li><a href="Index.html">网站首页</a></li>
+                    <li class="active"><a href="product.html">产品大全</a></li>
+                    <li><a href="seller.html">商户接入</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="login-box">
+                <a class="login-btn" href="login.html">登录</a>
+                <a class="reg-btn" href="javascript:;">退出</a>
+            </div>
+        </div>
+    </div>
+    <div id="slideBox" class="slideBox">
+        <div class="hd">
+            <ul><li></li><li></li><li></li></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <li>
+                    <a href="javascript:;" target="_blank">
+                        <img src="images/pro/p_banner.png" />
+                        <p>
+                            <span class="name">产品大全</span>
+                            <span>微信扫码&nbsp;&nbsp;&nbsp;&nbsp;支付宝&nbsp;&nbsp;&nbsp;&nbsp;在线收款</span>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" target="_blank">
+                        <img src="images/pro/p_banner.png" />
+                        <p>
+                            <span class="name">产品大全</span>
+                            <span>微信扫码&nbsp;&nbsp;&nbsp;&nbsp;支付宝&nbsp;&nbsp;&nbsp;&nbsp;在线收款</span>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" target="_blank">
+                        <img src="images/pro/p_banner.png" />
+                        <p>
+                            <span class="name">产品大全</span>
+                            <span>微信扫码&nbsp;&nbsp;&nbsp;&nbsp;支付宝&nbsp;&nbsp;&nbsp;&nbsp;在线收款</span>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+        </div>
+
+
+    </div>
+    <script type="text/javascript">jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true}); </script>
+    <div class="solgen">
+        <p class="main">
+            <span>极致</span>
+            <span>安全</span>
+            <span>快速</span>
+        </p>
+    </div>
+    <div class="product">
+        <div class="pay-box wxPay">
+            <h3>微信支付</h3>
+            <ul class="clearfix">
+                <li class="fl">
+                    <div class="text-info">
+                        <h4>步骤一</h4>
+                        <p>商户根据微信支付的规则，为不同商品
+                            生成不同的二维码(如图1)，展示
+                            在各种场景，用于用户扫描购买</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/pro/1.jpg" alt=""/>
+                        <span>图1.支付二维码图</span>
+                    </div>
+                </li>
+                <li class="fr">
+                    <div class="text-info">
+                        <h4>步骤二</h4>
+                        <p>用户使用微信“扫一扫”(如图2)扫描
+                            二维码后，获取商品支付信息，引导用
+                            户完成支付（如图3）</p>
+                    </div>
+                    <div class="img-box clearfix">
+                        <div class="fl">
+                            <img src="images/pro/2.jpg" alt=""/>
+                            <span>图2.扫一扫图</span>
+                        </div>
+                        <div class="fr">
+                            <img src="images/pro/3.jpg" alt=""/>
+                            <span>图3.确认支付页</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="fl">
+                    <div class="text-info">
+                        <h4>步骤三</h4>
+                        <p>用户确认支付，输入支付密码(如图4)</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/pro/4.jpg" alt=""/>
+                        <span>图4.用户确认支付，输入密码</span>
+                    </div>
+                </li>
+                <li class="fr">
+                    <div class="text-info">
+                        <h4>步骤四</h4>
+                        <p>支付完成后会提示用户支付成功(如图5)
+                            商户后台得到支付成功的通知，然后
+                            进行发货处理
+                        </p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/pro/5.jpg" alt=""/>
+                        <span>图5.支付成功提示</span>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="pay-box aliPay">
+            <h3>支付宝支付</h3>
+            <ul class="clearfix">
+                <li class="fl">
+                    <div class="text-info">
+                        <h4>步骤一</h4>
+                        <p class="textCenter">用户打开支付宝，点击“付款”</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/pro/6.jpg" alt=""/>
+                    </div>
+                </li>
+                <li class="fr">
+                    <div class="text-info">
+                        <h4>步骤二</h4>
+                        <p>选择“扫码付”，并将摄像头对准二维码或者条形码</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/pro/7.jpg" alt=""/>
+                    </div>
+                </li>
+                <li class="fl">
+                    <div class="text-info">
+                        <h4>步骤三</h4>
+                        <p class="textCenter">付款确认</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/pro/8.jpg" alt=""/>
+                    </div>
+                </li>
+                <li class="fr">
+                    <div class="text-info">
+                        <h4>步骤四</h4>
+                        <p>支付成功，商户后台得到支付成功的通知，然后进行发货处理</p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/pro/8.jpg" alt=""/>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="gathering">
+            <div class="title clearfix">
+                <div class="fl">
+                    <h3>在线收款</h3>
+                    <p>
+                        银宝助您更好的、更方便的收款<br>
+                        轻松收款&nbsp;&nbsp;&nbsp;&nbsp;避免尴尬<br>
+                        无需找零&nbsp;&nbsp;&nbsp;&nbsp;省心省力<br>
+                        对方付款&nbsp;&nbsp;&nbsp;&nbsp;及时到账<br>
+                        自动提醒&nbsp;&nbsp;&nbsp;&nbsp;方便贴心
+                    </p>
+                </div>
+                <div class="fr">
+                    <img src="images/pro/hand.png" alt=""/>
+                </div>
+            </div>
+            <div class="questions">
+                <dl>
+                    <dt>发起我要收款马上就能收到钱吗？</dt>
+                    <dd>答：不会。您将您的收款链接发给对方付款，只有在对方付款成功后，款项才会直接打入您的启跃账户。</dd>
+                </dl>
+                <dl>
+                    <dt>使用我要收款得来的钱可以提现吗？</dt>
+                    <dd>答：可以。</dd>
+                </dl>
+                <dl>
+                    <dt>每天发起收款的限额是多少？</dt>
+                    <dd>答：限额根据银行卡开通时银行卡限额标准。</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p> 24小时在线客服QQ：111111111</p>
+        <p> 测试服务开放平台- 掌握最新的行业解决方案 </p>
+        <p> Copyright 2016-2017 测试服务开放平台 http://47.91.153.201:1000 ,Inc. All rights reserved. 版权所有</p>
+    </div>
+    <div id="sidebarfixed" class="go-top">
+        <ul>
+            <li id="goTop"> </li>
+        </ul>
+    </div>
+</body>
+</html>

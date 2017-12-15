@@ -1,0 +1,17 @@
+html,body,.fullPage{height: 100%;width: 100%;}
+.fullPage{background: url("../images/login/background.png") no-repeat;background-size: cover;}
+.user-header .logo{height:56px ;width: 205px;background: #f05;margin-top: 42px;display: block}
+.user-header a{background: #3F83FF;width: 86px;height: 30px;text-align: center;
+    line-height: 30px;border-radius: 4px;font-size: 16px;letter-spacing: 2px;color: #fff;margin-top: 62px;}
+.form-box{width: 340px;margin: 65px auto;}
+.form-box .title{margin-bottom: 45px;text-align: center}
+.form-box .input-box{text-align: right;margin-bottom: 20px;line-height: 44px;position: relative;}
+.form-box h3{font-size: 38px;font-weight: 100;letter-spacing: 8px;margin-bottom: 10px;}
+.form-box .title span{font-size: 28px;color: #949494;letter-spacing: 5px;}
+.form-box .input-box span{font-size:18px ;color: #666;}
+.form-box input{width:250px ;height: 42px;border: 1px solid #D1D1D1;border-radius: 4px;
+    color: #9E9E9E;margin-left: 5px;padding: 0 8px}
+.form-box button{background: #3F83FF;height: 42px;line-height: 42px;color: #fff;width:250px;
+    text-align: center;border-radius: 4px;margin-left: 90px; cursor: pointer;font-size: 18px;}
+.online-qq{font-size: 26px;color: #fff;letter-spacing: 4px;position: absolute;bottom: 60px;left: 40%}
+.form-box p{font-size: 14px;color:#FD5656 ;letter-spacing: 4px;position: absolute;left: 98px;bottom: -34px;}
